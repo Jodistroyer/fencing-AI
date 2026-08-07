@@ -1,0 +1,67 @@
+# --- Videos (keep folders via .gitkeep / README) ---
+input_videos/*
+!input_videos/.gitkeep
+!input_videos/README.txt
+
+output_videos/*
+!output_videos/.gitkeep
+
+output_videos_gpu_test/
+**/runs/
+
+# Common video / media formats anywhere
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.m4v
+*.flv
+*.wmv
+*.mpeg
+*.mpg
+
+# --- Model weights / checkpoints ---
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.pb
+*.weights
+*.safetensors
+*.pkl
+*.pickle
+
+# --- Datasets / generated clips (if created later) ---
+clips/
+dataset/
+datasets/
+data/
+*.npy
+*.npz
+*.hdf5
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.env
+*.log
+
+# --- Jupyter / IDE / OS ---
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
